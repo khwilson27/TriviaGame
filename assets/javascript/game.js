@@ -5,6 +5,7 @@ $(document).ready(function() {
         var correctCounter = 0;
         var incorrectCounter = 0;
         var unansweredCounter = 0;
+        var questionCounter= 0;
 
         var stopwatch = {
                                   intervalId: "",
@@ -60,9 +61,7 @@ $(document).ready(function() {
             $(".imageArea").empty();
         }
 
-        var showQuestion = function() {
-
-
+        var showQuestion = function() 
         }                    
 
   }) //closing the .textDiv onClick
