@@ -11,7 +11,7 @@ body {
 	border-style: solid;
 	border-color: white;
 	border-width: 2px;
-	height: 500px;
+	height: 525px;
 	margin-top: 100px;
 
 }
@@ -23,7 +23,7 @@ body {
 
 .title {
 	font-size: 50px;
-	padding: 50px;
+	padding: 20px;
 }
 
 
@@ -36,6 +36,16 @@ body {
 	border-top-style: solid;
 	border-top-color: white;
 	border-top-width: 2px;
+}
+
+img {
+	height: 200px;
+	padding: 10px;
+	opacity: .8;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+
 }
 
 
