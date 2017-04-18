@@ -142,8 +142,8 @@ $(document).ready(function() {
             questionCounter++;
 
             if (questionCounter < questions.length) {
-                setTimeout(emptyText, 2700);
-                setTimeout(showQuestion, 3000);
+                setTimeout(emptyText, 1700);
+                setTimeout(showQuestion, 2000);
             } else {
                 emptyText();
                 showEndScore();
@@ -163,8 +163,8 @@ $(document).ready(function() {
             questionCounter++;
 
             if (questionCounter < questions.length) {
-                setTimeout(emptyText, 2700);
-                setTimeout(showQuestion, 3000);
+                setTimeout(emptyText, 1700);
+                setTimeout(showQuestion, 2000);
             } else {
                 emptyText();
                 showEndScore();
@@ -172,9 +172,9 @@ $(document).ready(function() {
         }
 
         var showEndScore = function() {
-                var score1 = $("<h3>").text("Correct Answers: " + correctCounter);
-                var score2 = $("<h3>").text("Incorrect Answers: " + incorrectCounter);
-                var score3 = $("<h3>").text("Unanswered Questions: " + unansweredCounter);
+                var score1 = $("<h1>").text("Correct Answers: " + correctCounter);
+                var score2 = $("<h1>").text("Incorrect Answers: " + incorrectCounter);
+                var score3 = $("<h1>").text("Unanswered Questions: " + unansweredCounter);
                 var playAgain = $("<h3>").text("CLICK HERE TO PLAY AGAIN!").addClass("restart");
 
                 $(".question").append(score1);
