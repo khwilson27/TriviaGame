@@ -11,14 +11,16 @@ body {
 	border-style: solid;
 	border-color: white;
 	border-width: 2px;
-	height: 525px;
-	margin-top: 100px;
+	height: 600px;
+	margin-top: 50px;
+	overflow: auto;
 
 }
 
 .textDiv {
 	text-align: center;
 	color: white;
+	overflow: auto;
 }
 
 .title {
@@ -46,6 +48,14 @@ img {
 	border-color: white;
 	border-width: 2px;
 
+}
+
+h2, h3 {
+	font-size: 18px;
+}
+
+h3:hover { 
+    color: black;
 }
 
 
