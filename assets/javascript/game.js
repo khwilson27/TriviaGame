@@ -208,8 +208,8 @@ $(document).ready(function() {
         }
 
         // on click event functions
-        $(document).on("click", ".correctAnswer", pickCorrectAnswer);
-        $(document).on("click", ".incorrectAnswer", pickIncorrectAnswer); 
-        $(document).on("click", ".restart", restartGame);   
+        $(".textDiv").on("click", ".correctAnswer", pickCorrectAnswer);
+        $(".textDiv").on("click", ".incorrectAnswer", pickIncorrectAnswer); 
+        $(".textDiv").on("click", ".restart", restartGame);   
 
 }) //closing document.ready
